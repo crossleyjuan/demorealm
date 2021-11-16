@@ -1,5 +1,5 @@
 exports = function(arg){
-  console.log("other testing");
+  console.log("one more testing");
   /*
     Accessing application's values:
     var x = context.values.get("value_name");
