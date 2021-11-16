@@ -1,5 +1,5 @@
 exports = function(arg){
-  console.log("one more testing");
+  console.log("this is from jenkins");
   /*
     Accessing application's values:
     var x = context.values.get("value_name");
