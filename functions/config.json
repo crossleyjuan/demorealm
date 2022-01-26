@@ -1,6 +1,23 @@
 [
     {
+        "name": "modifyCluster",
+        "private": false
+    },
+    {
         "name": "test",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_PauseClusters_1639409421",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_trigger0_1639409544",
+        "private": false,
+        "can_evaluate": {}
+    },
+    {
+        "name": "getAllClusters",
         "private": false
     }
 ]
