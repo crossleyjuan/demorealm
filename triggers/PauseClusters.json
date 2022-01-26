@@ -1,0 +1,15 @@
+{
+    "name": "PauseClusters",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 20 * * *"
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_PauseClusters_1639409421"
+            }
+        }
+    }
+}
