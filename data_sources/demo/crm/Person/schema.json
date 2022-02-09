@@ -18,6 +18,9 @@
         "phoneNumber": {
             "bsonType": "string"
         },
+        "birthDate": {
+            "bsonType": "date"
+        },
         "userId": {
             "bsonType": "string"
         }
