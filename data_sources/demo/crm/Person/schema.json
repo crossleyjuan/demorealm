@@ -9,6 +9,9 @@
         "address": {
             "bsonType": "string"
         },
+        "birthDate": {
+            "bsonType": "date"
+        },
         "gender": {
             "bsonType": "string"
         },
@@ -17,9 +20,6 @@
         },
         "phoneNumber": {
             "bsonType": "string"
-        },
-        "birthDate": {
-            "bsonType": "date"
         },
         "userId": {
             "bsonType": "string"

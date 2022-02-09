@@ -4,6 +4,10 @@
         "private": false
     },
     {
+        "name": "nuevaFunction",
+        "private": false
+    },
+    {
         "name": "test",
         "private": false
     },
