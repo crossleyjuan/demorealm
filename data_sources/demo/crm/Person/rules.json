@@ -13,6 +13,18 @@
             "delete": true,
             "search": true,
             "additional_fields": {}
+        },
+        {
+            "name": "owner2",
+            "apply_when": {
+                "userId": "1"
+            },
+            "read": true,
+            "write": false,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
         }
     ]
 }
