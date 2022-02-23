@@ -6,7 +6,7 @@
         "type": "string",
         "required": true,
         "permissions": {
-            "read": true,
+            "readxx": true,
             "write": {
                 "%%partition": "%%user.id"
             }
