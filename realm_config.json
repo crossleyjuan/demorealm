@@ -1,8 +1,7 @@
 {
-    "app_id": "triggers_realmapp-zsclq",
+    "app_id": "freecluster-wrsrw",
     "config_version": 20210101,
-    "name": "Triggers_RealmApp",
-    "location": "US-VA",
-    "deployment_model": "GLOBAL",
-    "environment": "development"
+    "name": "FreeCluster",
+    "location": "IE",
+    "deployment_model": "LOCAL"
 }

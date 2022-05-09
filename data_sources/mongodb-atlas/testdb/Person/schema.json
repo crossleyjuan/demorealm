@@ -1,4 +1,5 @@
 {
+    "bsonType": "object",
     "properties": {
         "_id": {
             "bsonType": "objectId"
@@ -9,16 +10,16 @@
         "address": {
             "bsonType": "string"
         },
-        "notes": {
-            "bsonType": "string"
+        "birthDate": {
+            "bsonType": "date"
         },
         "gender": {
             "bsonType": "string"
         },
-        "birthDate": {
-            "bsonType": "date"
-        },
         "name": {
+            "bsonType": "string"
+        },
+        "notes": {
             "bsonType": "string"
         },
         "phoneNumber": {
@@ -29,9 +30,9 @@
         }
     },
     "required": [
-        "_partition",
         "name",
         "gender",
         "address"
-    ]
+    ],
+    "title": "Person"
 }

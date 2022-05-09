@@ -1,6 +1,6 @@
 {
     "collection": "Person",
-    "database": "crm",
+    "database": "testdb",
     "roles": [
         {
             "name": "owner",

@@ -1,17 +1,15 @@
 {
+    "type": "partition",
     "state": "enabled",
-    "database_name": "crm",
+    "development_mode_enabled": false,
+    "service_name": "mongodb-atlas",
+    "database_name": "testdb",
     "partition": {
         "key": "_partition",
         "type": "string",
-        "required": true,
         "permissions": {
-            "readxx": true,
-            "write": {
-                "%%partition": "%%user.id"
-            }
+            "read": true,
+            "write": true
         }
-    },
-    "development_mode_enabled": true,
-    "service_name": "demo"
+    }
 }
