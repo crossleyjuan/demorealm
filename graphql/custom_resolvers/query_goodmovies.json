@@ -1,9 +1,0 @@
-{
-    "field_name": "goodmovies",
-    "function_name": "myCustomResolver",
-    "input_type": "int",
-    "input_type_format": "scalar",
-    "on_type": "Query",
-    "payload_type": "Movie",
-    "payload_type_format": "generated"
-}
