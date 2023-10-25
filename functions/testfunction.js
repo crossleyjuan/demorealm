@@ -3,7 +3,7 @@ exports = async function(request, response){
   // To see plenty more examples of what you can do with functions see: 
   // https://www.mongodb.com/docs/atlas/app-services/functions/
   
-  console.log(request.params);
+  console.log(request.query);
 
   // Find the name of the MongoDB service you want to use (see "Linked Data Sources" tab)
   var serviceName = "Demo";
