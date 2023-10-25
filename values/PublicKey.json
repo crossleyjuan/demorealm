@@ -1,0 +1,5 @@
+{
+    "name": "PublicKey",
+    "value": "secret_publicKey",
+    "from_secret": true
+}

@@ -1,0 +1,24 @@
+[
+    {
+        "name": "PauseTrigger",
+        "private": true
+    },
+    {
+        "name": "modifyCluster",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getAllClusters",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "myCustomResolver",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_InsertInvoice_1698223870",
+        "private": false
+    }
+]
