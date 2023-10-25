@@ -21,5 +21,10 @@
     {
         "name": "PauseTrigger",
         "private": true
+    },
+    {
+        "name": "search_movie",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
