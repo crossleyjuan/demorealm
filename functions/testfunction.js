@@ -5,7 +5,7 @@ exports = async function(request, response){
   
   console.log(JSON.stringify(request.query));
 
-  const title = request.query.title;
+  const genre = request.query.genre;
   
   // Find the name of the MongoDB service you want to use (see "Linked Data Sources" tab)
   var serviceName = "Demo";
@@ -20,7 +20,7 @@ exports = async function(request, response){
   var findResult;
   try {
     // Execute a FindOne in MongoDB 
-    findResult = await collection.findOne({ genres: title });
+    findResult = await collection.findOne({ genres: genre });
     
   } catch(err) {
     console.log("Error occurred while executing findOne:", err.message);
