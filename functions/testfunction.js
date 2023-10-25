@@ -1,2 +1,3 @@
-export = function() {
+exports = async function() {
+  return "hello";
 }
