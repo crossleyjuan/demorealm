@@ -1,6 +1,6 @@
 [
     {
-        "route": "/movies2",
+        "route": "/movies3",
         "http_method": "GET",
         "function_name": "testfunction",
         "validation_method": "NO_VALIDATION",
@@ -11,7 +11,7 @@
         "return_type": "JSON"
     },
     {
-        "route": "/movies3",
+        "route": "/movies",
         "http_method": "GET",
         "function_name": "testfunction",
         "validation_method": "NO_VALIDATION",
