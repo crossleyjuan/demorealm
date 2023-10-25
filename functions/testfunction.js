@@ -3,8 +3,10 @@ exports = async function(request, response){
   // To see plenty more examples of what you can do with functions see: 
   // https://www.mongodb.com/docs/atlas/app-services/functions/
   
-  console.log(request.query);
+  console.log(JSON.stringify(request.query));
 
+  const title = request.query.title;
+  
   // Find the name of the MongoDB service you want to use (see "Linked Data Sources" tab)
   var serviceName = "Demo";
 
@@ -18,7 +20,7 @@ exports = async function(request, response){
   var findResult;
   try {
     // Execute a FindOne in MongoDB 
-    findResult = await collection.findOne({});
+    findResult = await collection.findOne({ title: title });
     
   } catch(err) {
     console.log("Error occurred while executing findOne:", err.message);
