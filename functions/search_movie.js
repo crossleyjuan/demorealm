@@ -12,6 +12,7 @@ async function search(genre) {
 
   var findResult;
   try {
+    console.log("Hola mundo");
     // Execute a FindOne in MongoDB 
     findResult = await collection.findOne({ genres: genre });
     
