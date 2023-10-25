@@ -1,3 +1,7 @@
 {
-    "enabled": false
+    "enabled": false,
+    "mongo_service_name": "Demo",
+    "database_name": "users",
+    "collection_name": "customer_user",
+    "user_id_field": "_id"
 }
