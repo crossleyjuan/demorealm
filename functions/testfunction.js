@@ -20,7 +20,7 @@ exports = async function(request, response){
   var findResult;
   try {
     // Execute a FindOne in MongoDB 
-    findResult = await collection.findOne({ title: title });
+    findResult = await collection.findOne({ genres: title });
     
   } catch(err) {
     console.log("Error occurred while executing findOne:", err.message);
