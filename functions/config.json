@@ -1,8 +1,17 @@
 [
     {
+        "name": "getAllClusters",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "modifyCluster",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
         "name": "testfunction",
         "private": false,
-        "run_as_system": true,
         "disable_arg_logs": true
     },
     {
@@ -12,15 +21,5 @@
     {
         "name": "PauseTrigger",
         "private": true
-    },
-    {
-        "name": "getAllClusters",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "modifyCluster",
-        "private": false,
-        "disable_arg_logs": true
     }
 ]
