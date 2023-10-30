@@ -97,13 +97,11 @@ async function processCluster(service, groupId, cluster, databases) {
 
 exports = async function(arg){
   const serviceName = "Demo";
-  const service = context.services.get(serviceName);
-
   const databases   = ["sample_mflix", "sample_training"];
-  
   const groupId = "5bc75019d5ec1361b802eeb1";
   const clusterName = "Demo";
   
+  const service = context.services.get(serviceName);
   const cluster = await getCluster(groupId, clusterName);
   processCluster(service, groupId, cluster, databases);
 
