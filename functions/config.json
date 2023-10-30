@@ -1,11 +1,11 @@
 [
     {
-        "name": "getAllClusters",
+        "name": "modifyCluster",
         "private": false,
         "disable_arg_logs": true
     },
     {
-        "name": "modifyCluster",
+        "name": "search_movie",
         "private": false,
         "disable_arg_logs": true
     },
@@ -23,8 +23,14 @@
         "private": true
     },
     {
-        "name": "search_movie",
+        "name": "getAllClusters",
         "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "createReportIndexUsage",
+        "private": false,
+        "run_as_system": true,
         "disable_arg_logs": true
     }
 ]
