@@ -75,7 +75,6 @@ async function addRole(groupId, username, roleToAdd) {
 
 exports = async function(arg){
   const groupId = "5bc75019d5ec1361b802eeb1";
-  const clusterName = "Demo";
   const roleToAdd = "test";
   const username = "testuser";
 

@@ -1,6 +1,5 @@
 const username = "lpjpjldb";
 const password = "a7bcf56b-4025-47f5-b6c3-1fff07f18ebd";
-const usageThreshold = 100;
 
 async function get(endpoint, query) {
   const arg = { 
@@ -76,7 +75,6 @@ async function removeRole(groupId, username, roleToRemove) {
 
 exports = async function(arg){
   const groupId = "5bc75019d5ec1361b802eeb1";
-  const clusterName = "Demo";
   const roleToRemove = "test";
   const username = "testuser";
 
