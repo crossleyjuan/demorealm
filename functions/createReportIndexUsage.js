@@ -102,7 +102,8 @@ exports = async function(arg){
   const clusterName = "Demo";
   
   const service = context.services.get(serviceName);
-  const cluster = await getCluster(groupId, clusterName);
-  processCluster(service, groupId, cluster, databases);
+  //const cluster = await getCluster(groupId, clusterName);
+  //processCluster(service, groupId, cluster, databases);
+  databases.forEach(d => check_db(service, d));
 
 };
